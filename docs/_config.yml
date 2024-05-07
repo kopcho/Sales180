@@ -1,0 +1,24 @@
+remote_theme: rubocop/jekyll-gitbook
+
+gitbook:
+  theme:
+    primary: "#0f206c"
+    secondary: "#416ba9"
+    accent: "#93d500"
+    background: "#F7F7F7"
+  font:
+    primary:
+      name: Inter
+      url: https://fonts.googleapis.com/css?family=Inter&display=swap
+    secondary:
+      name: Source Sans
+      url: https://fonts.googleapis.com/css?family=SourceSans&display=swap
+  sidebar:
+    collapsed: false
+  navbar:
+    items:
+      - text: Home
+        link: /
+      - text: About
+        link: /about
+  syntax_highlighter: rouge
